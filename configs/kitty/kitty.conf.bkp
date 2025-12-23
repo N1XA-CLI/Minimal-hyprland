@@ -9,6 +9,5 @@ bold_italic_font auto
 #background_opacity 0.60
 #hide_window_decorations yes
 #confirm_os_window_close 0
-
-#include ./kitty-themes/kitty-color.conf
-include ./matugen/colors-matugen.conf
+allow_remote_control=yes
+include ./kitty-themes/kitty-color.conf
