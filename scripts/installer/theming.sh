@@ -21,6 +21,8 @@ run_command "yay -S --sudoloop --noconfirm kvantum-theme-catppuccin-git" "Instal
 
 run_command "cp -r $BASE_DIR/configs/kitty /home/$SUDO_USER/.config/" "Copy Catppuccin theme configuration for Kitty terminal" "yes" "no"
 
+run_command "pacman -S matugen" "Used to generate color scheme form wallpapers." "yes"
+
 # Add instructions to configure theming
 print_info "\nPost-installation instructions:"
 print_bold_blue "Set themes and icons:"
